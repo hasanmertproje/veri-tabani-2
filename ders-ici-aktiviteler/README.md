@@ -6,13 +6,9 @@ Teorik ders notları `ders-notlari/` klasöründe; uygulama ağırlıklı çalı
 
 ## Aktivite Listesi
 
-Henüz kayıtlı ders içi aktivite bulunmuyor.
-
-Yeni bir aktivite eklendiğinde bu tablo güncellenecektir:
-
 | No | Aktivite | Tarih / Hafta | Dosya |
 | --- | --- | --- | --- |
-| — | İlk aktivite eklenecek | — | — |
+| 03 | Tavuk Dürüm Paket Servis Veritabanı Tasarımı — Gemini ile tablo önerileri ve ilişkisel tasarım | 09.10.2026 / Ders 3 | [Aktiviteyi Aç](03-tavuk-durum-paket-servis-veritabani.md) |
 
 ## Aktivite Dosyasında Bulunması Gerekenler
 
@@ -45,4 +41,4 @@ Yeni çalışmalar için hazır şablon:
 
 ➡️ [aktivite-sablonu.md](aktivite-sablonu.md)
 
-> Ders sırasında yapılan gerçek aktivite gönderildiğinde şablon doldurularak ayrı bir dosya hâline getirilecektir.
+> Yeni ders içi çalışmalar geldikçe bu liste ders sırasına göre güncellenecektir.
