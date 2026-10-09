@@ -33,7 +33,9 @@ veri-tabani-2/
 │   ├── README.md
 │   └── 01-veritabani-temelleri.md
 ├── ders-ici-aktiviteler/
-│   └── README.md
+│   ├── README.md
+│   ├── aktivite-sablonu.md
+│   └── 03-tavuk-durum-paket-servis-veritabani.md
 └── kaynaklar/
     └── README.md
 ```
@@ -67,6 +69,7 @@ Dönem boyunca aşağıdaki başlıklar işlendikçe repository genişletilecekt
 - Formlar
 - Raporlar
 - Gerçek hayat senaryolarının veritabanına dönüştürülmesi
+- Yapay zekâ tarafından önerilen veritabanı tasarımlarını değerlendirme
 - Güvenli biçimde saklanması gereken / saklanmaması gereken veriler
 
 > Konu listesi dersin gerçek ilerleyişine göre güncellenecek; henüz işlenmeyen konular ders notu olarak gösterilmeyecektir.
@@ -76,6 +79,7 @@ Dönem boyunca aşağıdaki başlıklar işlendikçe repository genişletilecekt
 | Araç / Teknoloji | Kullanım Amacı |
 | --- | --- |
 | **Microsoft Access** | Veritabanı oluşturma, tablo, ilişki, sorgu, form ve rapor çalışmaları |
+| **Google Gemini** | Gerçek hayat senaryolarından tablo/alan önerileri almak ve önerileri veritabanı mantığı açısından değerlendirmek |
 | **SQL** | Sorgulama mantığını ve temel veritabanı işlemlerini anlamak |
 | **GitHub** | Ders notlarını ve uygulamaları sürüm kontrollü biçimde arşivlemek |
 | **Markdown** | Ders dokümantasyonunu okunabilir ve düzenli tutmak |
@@ -121,21 +125,32 @@ Ders içi aktivitelerde de benzer bir düzen kullanılacaktır:
 ```text
 01-ornek-veritabani-tasarimi.md
 02-access-tablo-uygulamasi.md
+03-tavuk-durum-paket-servis-veritabani.md
 ```
 
 ## Haftalık İlerleme
 
-| Hafta | Konu | Ders Notu | Aktivite | Durum |
+| Hafta / Ders | Konu | Ders Notu | Aktivite | Durum |
 | --- | --- | --- | --- | --- |
 | 1 | Veritabanı temelleri | [Ders Notu](ders-notlari/01-veritabani-temelleri.md) | — | Başlandı |
 | 2 | Eklenecek | — | — | Bekliyor |
-| 3 | Eklenecek | — | — | Bekliyor |
+| 3 | Tavuk dürüm paket servis sistemi için veritabanı tablolarının belirlenmesi; Gemini çıktısının değerlendirilmesi | — | [Ders 3 Aktivitesi](ders-ici-aktiviteler/03-tavuk-durum-paket-servis-veritabani.md) | Tamamlandı |
 
 Bu tablo her ders sonrasında güncellenecektir.
+
+## Ders 3 — Kısa Özet
+
+Ders 3'te gerçek hayattaki bir **tavuk dürüm paket servis sistemi** veritabanı problemine dönüştürüldü. Google Gemini'den gerekli tablolar için başlangıç önerileri istendi. Ekrandaki yanıtta özellikle **Müşteriler**, **Personeller** ve **Ürünler** tabloları görüldü.
+
+Aktivite kaydında bu başlangıç önerileri; Primary Key, Foreign Key, Access veri türleri ve tablo ilişkileri açısından düzenlenerek daha kapsamlı bir ilişkisel veritabanı taslağına dönüştürüldü.
+
+➡️ [Ders 3 — Tavuk Dürüm Paket Servis Veritabanı Tasarımı](ders-ici-aktiviteler/03-tavuk-durum-paket-servis-veritabani.md)
 
 ## Çalışma İlkeleri
 
 - Derste anlatılmayan içerikler ders notuymuş gibi eklenmeyecektir.
+- Fotoğrafta veya ders kaydında açıkça görülmeyen AI çıktıları birebir ders çıktısı olarak gösterilmeyecektir.
+- Yapay zekâdan alınan öneriler kontrol edilmeden doğru kabul edilmeyecektir.
 - Örnekler mümkün olduğunca gerçek hayat senaryoları üzerinden açıklanacaktır.
 - Veritabanı tasarımında gereksiz veri tekrarından kaçınılacaktır.
 - Hassas bilgilerin veritabanında nasıl tutulması gerektiği güvenlik açısından ayrıca değerlendirilecektir.
@@ -146,6 +161,7 @@ Bu tablo her ders sonrasında güncellenecektir.
 
 - 📘 [Ders Notları](ders-notlari/README.md)
 - 🧪 [Ders İçi Aktiviteler](ders-ici-aktiviteler/README.md)
+- 🍗 [Ders 3 — Tavuk Dürüm Paket Servis Aktivitesi](ders-ici-aktiviteler/03-tavuk-durum-paket-servis-veritabani.md)
 - 🔗 [Kaynaklar](kaynaklar/README.md)
 
 ---
