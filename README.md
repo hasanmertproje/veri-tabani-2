@@ -6,13 +6,7 @@ Bu depo, **Veri Tabanı 2** dersi kapsamında tutulan ders notlarını, ders iç
 
 ## Öğrenci Bilgileri
 
-| Bilgi | Değer |
-| --- | --- |
-| **Ad Soyad** | Hasan Mert Koku |
-| **Öğrenci No** | 202551501055 |
-| **Ders** | Veri Tabanı 2 |
-| **Repository** | `veri-tabani-2` |
-
+| 
 ## Repository Amacı
 
 Bu çalışmanın temel amaçları:
